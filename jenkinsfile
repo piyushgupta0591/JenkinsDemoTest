@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo "This is Deploy stage." 
             }
-			
+		}
 		stage('Release') { 
             steps {
                 echo "This is Deploy stage." 
